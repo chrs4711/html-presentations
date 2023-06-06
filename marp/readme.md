@@ -14,8 +14,9 @@ it will yield `slides.html`
 npx @marp-team/marp-cli@latest slides.md --pdf
 ```
 
-### with css
+### with special css
 
 ```
-marp --theme ./dracula.css 
+npx @marp-team/marp-cli@latest --theme dracula.css slides.md
 ```
+

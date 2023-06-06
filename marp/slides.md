@@ -6,11 +6,13 @@ keywords: marp,marp-cli,slide,example
 url: https://marp.app/
 ---
 
-![bg left:40% 80%](https://marp.app/assets/marp.svg)
 
 # One
 
 This is the first slide
+
+
+![height:300px](img/shuttle.png)
 
 ---
 
@@ -19,6 +21,43 @@ This is the first slide
 
 # Two
 
+![bg right](img/shuttle.png)
+
+That looks great:
+
+```
+![bg right](img/shuttle.png)
+```
+
+---
+
+# Three
+
+![bg left](img/shuttle.png)
+
+Now the shuttle is on the left side. Isn't it pretty?
+
+```
+![bg left](img/shuttle.png)
+```
+
+---
+
+# Four
+
+Wow. Such background.
+
+```
+![bg](img/shuttle.png)
+```
+
+![bg](img/shuttle.png)
+
+
+---
+
+# Five
+
 Here is some code:
 
 ```java
@@ -26,20 +65,3 @@ public static void main(String[] args) {
     // ...
 }
 ```
-
----
-
-# Three
-
-This is the third slide.
-To change the slide color, put an html comment into markdown:
-
-```html
-<!-- backgroundColor: aqua -->
-```
-
----
-
-# Four
-
-And this is the fourth slide.
