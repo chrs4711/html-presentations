@@ -321,6 +321,11 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
+  font: bold 0.5em Menlo, monospace;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* background-color: var(--dracula-current-line); */
 }
 
 section::after {
